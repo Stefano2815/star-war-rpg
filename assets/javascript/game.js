@@ -106,7 +106,7 @@ $(document).ready(function() {
     if(characterSelected == false) {
       $("#game-message").empty();
 
-      initializeCharacter(snoke);
+      initializeCharacter(rey);
       characterSelected = true;
 
       $("#rey-character").removeClass("available-character").addClass("chosen-character");
@@ -118,10 +118,10 @@ $(document).ready(function() {
       if($("#snoke-character").hasClass("enemy-character")) {
         $("#game-message").empty();
 
-        initializeDefender(rey);
+        initializeDefender(kyloRen);
         defenderSelected = true;
 
-        $("#rey-character").removeClass("enemy-character").addClass("defender-character");
+        $("#snoke-character").removeClass("enemy-character").addClass("defender-character");
         $("#defender-section").append(this);
       }
     }
@@ -169,7 +169,7 @@ $(document).ready(function() {
       moveToEnemies();
     } else if ((characterSelected == true) && (defenderSelected == false)) {
 
-      if($("#rey-character").hasClass("enemy-character")) {
+      if($("#snoke-character").hasClass("enemy-character")) {
         $("#game-message").empty();
 
         initializeDefender(snoke);
@@ -189,7 +189,7 @@ $(document).ready(function() {
     if(characterSelected == false) {
       $("#game-message").empty();
 
-      initializeCharacter(rey);
+      initializeCharacter(kyloRen);
       characterSelected = true;
 
       $("#rey-character").removeClass("available-character").addClass("chosen-character");

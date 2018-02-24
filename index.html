@@ -5,13 +5,10 @@
   <meta charset="UTF-8">
   <title>Star Wars RPG</title>
 
-  <!-- Link to the jQuery Library -->
   <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
 
-   <!-- Link to the Bootstrap library -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-  <!-- Link to an sdditional CSS file -->
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -20,22 +17,19 @@
   <!-- Overall Bootstrap grid -->
   <div class="container">
 
-    <!-- Jumbotron with title -->
     <div class="jumbotron">
 
       <h1 class="text-center"><strong>Welcome To Star Wars RPG</strong></h1>
       <h2 class="text-center">Select Your Character</h2>
 
-    </div> <!-- End Jumbotron -->
+    </div>
 
-    <!-- Contents of the game-->
     <div class="row">
 
-      <!-- Available characters -->
       <div class="col-lg-12" id="characters-available">
         <span class="character-image available-character" id="snoke-character">
           <p>Snoke</p>
-          <img src="./assets/images/snoke.jpg" alt="Snoke Character" id="obi-wan-kenobi-image" style="width: 200px">
+          <img src="./assets/images/snoke.jpg" alt="Snoke Character" id="snoke-image" style="width: 200px">
           <p class="health">120</p>
         </span>
 
@@ -56,38 +50,32 @@
           <img src="./assets/images/kylo-ren.jpg" alt="Kylo Ren Character" id="kylo-ren-image" style="width: 200px">
           <p class="health">180</p>
         </span>
-      </div> <!-- End available characters -->
+      </div>
 
-      <!-- Your chosen character -->
       <div class="col-lg-12" id="chosen-character">
         <h2>Your Character</h2>
-      </div> <!-- End your chosen character-->
+      </div>
 
-      <!-- Enemies available to attack -->
       <div class="col-lg-12" id="enemies-available">
         <h2>Enemies Available To Attack</h2>
-      </div> <!-- End enemies available to attack -->
+      </div>
 
-      <!-- Fight section -->
       <div class="col-lg-12" id="fight-section">
         <h2>Fight Section</h2>
         <button id="attack">Attack</button>
-      </div> <!-- End fight section -->
+      </div>
 
-      <!-- Defender section -->
       <div class="col-lg-12" id="defender-section">
         <h2>Defender</h2>
-      </div> <!-- End defender section -->
+      </div>
 
-      <!-- Game message section -->
       <div class="col-lg-12" id="message-section">
         <div id="game-message"></div>
         <button id="restart">Restart</button>
-      </div> <!-- Game message section -->
+      </div>
+    </div>
 
-    </div> <!-- End contents of the game -->
-
-  </div> <!-- End Bootstrap grid -->
+  </div>
 
   <script type="text/javascript" src="./assets/javascript/game.js"></script>
 
