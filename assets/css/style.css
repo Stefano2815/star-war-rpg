@@ -1,11 +1,10 @@
 body {
-	background: url('../images/lastjedi.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  background: url('../images/lastjedi.jpeg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
 }
-
 .jumbotron {
     padding: 0.5em 0.6em;
     margin: 1.0em 0.0em 1.0em 0.0em;
@@ -48,7 +47,7 @@ body {
 }
 
 .chosen-character {
-	border-color: #red;
+	border-color: #dd48f0;
 	background-color: #5bf048;
 }
 
